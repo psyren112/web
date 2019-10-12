@@ -161,10 +161,29 @@ body{
 .third_block{
     background-color: #ffffff;
     position: relative;
+    width: 100%;
+    overflow: hidden;
 
     .third_text_box{
-        max-width: 35%;
+        max-width: 30%;
         padding: 7%;
+        float:right; 
+        clear: right;
+    }
+    
+    .iphone_img{
+        position: absolute;
+        padding: 7%;
+    }
+
+    .navigation_arrows{
+        line-height: 24px;
+        margin-top:12px;
+        font-weight: 700;
+
+        .next{
+            padding-left: 10px;
+        }
     }
 
 }
